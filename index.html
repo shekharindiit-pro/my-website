@@ -1,37 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shekhar Chauhan | IT Administrator</title>
 
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: #f5f5f5;
-            font-family: Arial, sans-serif;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
 
-        h1 {
-            color: green;
-            font-size: 50px;
-            margin-bottom: 10px;
-        }
+body{
+    background:#0f172a;
+    color:#fff;
+}
 
-        p {
-            font-size: 22px;
-            color: #555;
-        }
-    </style>
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+}
+
+header img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #22c55e;
+    object-fit:cover;
+    box-shadow:0 0 20px #22c55e;
+}
+
+h1{
+    margin-top:20px;
+    font-size:42px;
+    color:#22c55e;
+}
+
+h2{
+    margin-top:10px;
+    font-weight:normal;
+    color:#ddd;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    margin:20px 0;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.card h3{
+    color:#22c55e;
+    margin-bottom:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#22c55e;
+    color:#000;
+    padding:10px 18px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+    margin-top:40px;
+}
+</style>
 
 </head>
 <body>
 
-    <h1>Hello Shekhar!</h1>
-    <p>My website.</p>
+<header>
+
+<img src="https://images.unsplash.com/photo-1551038247-3d9af20df552?auto=format&fit=crop&w=600&q=80" alt="Eagle">
+
+<h1>Shekhar Chauhan</h1>
+
+<h2>IT Administrator</h2>
+
+<p style="margin-top:15px;">
+Currently Working at <b>Indiit Solutions</b>
+</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h3>About Me</h3>
+
+<p>
+Hello! I'm <b>Shekhar Chauhan</b>, an IT Administrator at
+<b>Indiit Solutions</b>. I enjoy working with Linux servers,
+AWS Cloud, Docker, Git, Nginx, Networking, DNS, CI/CD,
+and modern DevOps tools. My goal is to become a skilled
+DevOps Engineer.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Technical Skills</h3>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+<div class="skill">AWS</div>
+<div class="skill">Docker</div>
+<div class="skill">Git & GitHub</div>
+<div class="skill">Nginx</div>
+<div class="skill">CI/CD</div>
+<div class="skill">Networking</div>
+<div class="skill">DNS</div>
+<div class="skill">SSH</div>
+<div class="skill">DevOps</div>
+
+</div>
+
+</div>
+
+<div class="card contact">
+
+<h3>Contact</h3>
+
+<p>📱 <b>7830870808</b></p>
+
+<p>📧 <b>shekharindiit@gmail.com</b></p>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Shekhar Chauhan | IT Administrator | Indiit Solutions
+
+</footer>
 
 </body>
 </html>
